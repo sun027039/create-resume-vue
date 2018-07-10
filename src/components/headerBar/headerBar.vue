@@ -31,7 +31,7 @@
                   //addImage后两个参数控制添加图片的尺寸，此处将页面高度按照a4纸宽高比列进行压缩
                   pdf.addImage(pageData, 'JPEG', 0, 0, 595.28, 592.28/canvas.width * canvas.height );
 
-                  pdf.save('stone.pdf');
+                  pdf.save('简历.pdf');
             });
         }
       }
@@ -39,8 +39,8 @@
 </script>
 <style scoped lang="scss">
     .top-header-bar {
-        .ivu-menu-item{
-            float: right;
+        .layout-nav{
+            text-align: right;
         }
     }
 </style>

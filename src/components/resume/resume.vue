@@ -69,7 +69,7 @@ export default {
 		border: 1px solid #eee;
 		margin-right: 10px;
 		width: 1000px;
-		height: 1414px;
+		height: 1214px;
 		margin: 0 auto;
 		position:relative;
 		font-size: 14px;
@@ -153,6 +153,11 @@ export default {
 				font-size: 16px;
 				padding-bottom:5px;
 			}
+		}
+	}
+	.skill{
+		.item{
+			padding:5px 0;
 		}
 	}
 </style>
